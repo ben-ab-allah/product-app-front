@@ -9,7 +9,7 @@ class product extends React.Component {
   render() {
     return (
       <div className="Product">
-        <img src={this.props.image} />
+        <img src={this.props.img} />
         <h3>{this.props.name}</h3>
         <p>{this.props.designation}</p>
         <p>{this.props.quantiter}</p>

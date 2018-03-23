@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Product from "./component/product/product.js";
+
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -10,9 +12,25 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <Product
+          name="prodA"
+          designation="123"
+          image="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/uwjw39b1xdsbtmfnxjqm/chaussure-tanjun-pour-MkTmejeq.jpg"
+          quantiter="45"
+        />
+        <Product
+          name="prodA"
+          designation="123"
+          image="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/uwjw39b1xdsbtmfnxjqm/chaussure-tanjun-pour-MkTmejeq.jpg"
+          quantiter="45"
+        />
+        <Product
+          name="prodA"
+          designation="123"
+          image="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/uwjw39b1xdsbtmfnxjqm/chaussure-tanjun-pour-MkTmejeq.jpg"
+          quantiter="45"
+        />
       </div>
     );
   }
